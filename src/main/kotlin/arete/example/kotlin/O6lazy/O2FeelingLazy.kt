@@ -1,4 +1,4 @@
-package arete.example.kotlin.lazy
+package arete.example.kotlin.O6lazy
 
 fun main(args: Array<String>) {
     val lazyInt : Int by lazy {

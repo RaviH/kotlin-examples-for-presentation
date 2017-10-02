@@ -1,4 +1,4 @@
-package arete.example.kotlin.sequenz
+package arete.example.kotlin.O6lazy
 
 
 
@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
 //            .filter { it > 30 }
 //            .forEach { println(it) } // Slow....
 
-//    range.asSequence() // Converts collection to a "lazy" collection
+//    range.asSequence() // Converts collection to a "O6lazy" collection
 //            .filter { it > 30 }
 //            .forEach { println(it) }
 
