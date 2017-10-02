@@ -15,7 +15,9 @@ public int eval(Expr expr) {
 
 fun eval(expr: Expr) : Int =
     when (expr) {
+        // Look Ma, no casting needed
         is Num -> expr.value
+        // Look Ma, no casting needed anywhere after "->"
         is Sum -> eval(expr.left) + eval(expr.right)
         else -> throw IllegalArgumentException("Unknown expression")
     }
