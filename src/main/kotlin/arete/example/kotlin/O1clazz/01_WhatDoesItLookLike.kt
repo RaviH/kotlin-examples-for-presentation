@@ -1,4 +1,4 @@
-package arete.example.kotlin.`01clazz`
+package arete.example.kotlin.O1clazz
 
 class SomeService(val nnsClient: NNSClient) {
 

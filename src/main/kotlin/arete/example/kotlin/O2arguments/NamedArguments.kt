@@ -1,4 +1,4 @@
-package arete.example.kotlin.`02arguments`
+package arete.example.kotlin.O2arguments
 
 fun simple(firstName: String = "John", lastName: String, age: Int = 49) {
     println("$firstName $lastName age is $age")

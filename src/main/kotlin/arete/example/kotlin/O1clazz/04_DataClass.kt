@@ -1,4 +1,4 @@
-package arete.example.kotlin.`01clazz`
+package arete.example.kotlin.O1clazz
 
 // Kotlin provides toString, equals and hashCode for a data class.
 data class Movie(val name: String, val year: Int) {
