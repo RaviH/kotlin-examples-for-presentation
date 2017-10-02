@@ -5,6 +5,10 @@ class SomeService(val nnsClient: NNSClient) {
     fun youDoYou(seriesId: String): String {
         return nnsClient.getSeries(seriesId)
     }
+
+    // Demo of expression syntax
+    fun expressionSyntax(seriesId: String): String =
+            nnsClient.getSeries(seriesId)
 }
 
 class NNSClient {
