@@ -21,3 +21,5 @@ Here's the order for presentation:
 - Extension Functions
     - Extend DynamicPropertyFactory
     - Extend List (even a null list)
+- Pattern matching with When
+- When / If n Else / try n catch are expressions
