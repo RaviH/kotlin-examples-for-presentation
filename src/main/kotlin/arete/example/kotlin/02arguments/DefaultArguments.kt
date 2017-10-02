@@ -1,4 +1,4 @@
-package arete.example.kotlin.arguments
+package arete.example.kotlin.`02arguments`
 
 class DefaultArguments {
 
