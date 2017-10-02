@@ -25,6 +25,7 @@ Here's the order for presentation:
 - 4. Extension Functions
     - Extend DynamicPropertyFactory
     - Extend List (even a null list)
+
 - 5. When / If n Else / try n catch are expressions
     - Pattern matching with When
     - Smart casting
@@ -34,6 +35,11 @@ Here's the order for presentation:
     - Sequence evaluate lazily but finish faster
     - Lazy init
 
-  7. Lambdas
+- 7. Lambdas
     - Lambdas
     - functions directly available to List
+
+- 8. Miscellaneous
+    - String interpolation
+    - Multiline String & no escapes needed
+    - Destructuring
