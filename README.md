@@ -22,9 +22,10 @@ Here's the order for presentation:
 
 - 3. Null Safety
 
-- 4. Extension Functions
+- 4. Extension Functions and Property
     - Extend DynamicPropertyFactory
     - Extend List (even a null list)
+    - Extension Property
 
 - 5. When / If n Else / try n catch are expressions
     - Pattern matching with When
