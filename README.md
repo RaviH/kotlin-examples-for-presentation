@@ -33,3 +33,7 @@ Here's the order for presentation:
 - 6. Sequence and lazy init
     - Sequence evaluate lazily but finish faster
     - Lazy init
+
+  7. Lambdas
+    - Lambdas
+    - functions directly available to List

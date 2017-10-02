@@ -1,4 +1,4 @@
-package arete.example.kotlin.lambdas
+package arete.example.kotlin.O7lambdas
 
 import arete.example.kotlin.O1clazz.Movie
 
