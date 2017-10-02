@@ -1,6 +1,6 @@
 package arete.example.kotlin.lambdas
 
-import arete.example.kotlin.clazz.Movie
+import arete.example.kotlin.`01clazz`.Movie
 
 // Demo lambdas and functions directly available to List
 

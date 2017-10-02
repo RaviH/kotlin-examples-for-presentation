@@ -1,6 +1,9 @@
-package arete.example.kotlin.clazz
+package arete.example.kotlin.`01clazz`
 
-// class Bar : Token        // Cannot extend a final class
+class Animal
+
+// Cannot extend a final class
+// class Elephant : Animal
 
 open class Tokenizer // To allow a class to be extended mark it "open"
 
