@@ -27,6 +27,8 @@ Here's the order for presentation:
     - Extend List (even a null list)
     - Extension Property
 
+- 6. Higher order functions
+
 - 5. When / If n Else / try n catch are expressions
     - Pattern matching with When
     - Smart casting
