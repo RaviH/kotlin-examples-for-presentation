@@ -1,4 +1,4 @@
-package arete.example.kotlin.extension
+package arete.example.kotlin.O4extension
 
 fun <T> List<T>.println() {
     println("---------")
@@ -6,8 +6,13 @@ fun <T> List<T>.println() {
     println("---------")
 }
 
-fun <T> List<T>.print() {
-    forEach { print(it) }
+// print is also available on null list
+fun <T> List<T>?.print() {
+    if (this == null) {
+        print("null")
+    } else{
+        print(joinToString())
+    }
 }
 
 fun main(args: Array<String>) {
