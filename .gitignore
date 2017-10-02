@@ -2,3 +2,5 @@ out
 .idea/
 jenvrc
 *.iml
+.gradle
+build/
