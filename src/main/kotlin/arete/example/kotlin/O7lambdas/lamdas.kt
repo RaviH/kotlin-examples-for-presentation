@@ -4,7 +4,7 @@ import arete.example.kotlin.O1clazz.Movie
 
 // Demo lambdas and functions directly available to List
 
-fun containsEven(collection: Collection<Int>): Boolean = collection.any { it % 2 == 0 }
+fun containsEven(collection: Collection<Int>): Boolean = collection.any { foo -> foo % 2 == 0 }
 
 fun allEven(collection: Collection<Int>): Boolean = collection.all { it % 2 == 0 }
 

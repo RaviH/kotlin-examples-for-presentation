@@ -1,7 +1,7 @@
 package arete.example.kotlin.O8miscellaneous
 
 // Below is a singleton class
-object Singleton
+object ColinClass
 
 open class A {
     open val aProperty : Int = 10
@@ -25,5 +25,6 @@ class C : SomeInterface {
     override fun pleaseImplementMe(someInt: Int) {
         TODO("not implemented")
     }
+
 
 }

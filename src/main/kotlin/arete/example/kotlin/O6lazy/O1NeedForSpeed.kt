@@ -4,7 +4,7 @@ package arete.example.kotlin.O6lazy
 
 fun main(args: Array<String>) {
 
-    val range = 1 .. 1000000000
+    val range = 1 .. 1000000000000
 //    range
 //            .filter { it > 30 }
 //            .forEach { println(it) } // Slow....

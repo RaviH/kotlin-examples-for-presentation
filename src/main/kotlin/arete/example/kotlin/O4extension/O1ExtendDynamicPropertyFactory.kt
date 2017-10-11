@@ -4,7 +4,7 @@ import com.netflix.config.DynamicPropertyFactory
 
 fun <T> String.getConfig(default: T): T {
     val dynamicPropertyFactory = DynamicPropertyFactory.getInstance()
-    when (default) {
+    return when (default) {
         is String  -> dynamicPropertyFactory.getStringProperty(this, default).get()
         is Int     -> dynamicPropertyFactory.getIntProperty(this, default).get()
         is Float   -> dynamicPropertyFactory.getFloatProperty(this, default).get()
@@ -12,9 +12,8 @@ fun <T> String.getConfig(default: T): T {
         is Boolean -> dynamicPropertyFactory.getBooleanProperty(this, default).get()
         is Long    -> dynamicPropertyFactory.getLongProperty(this, default).get()
         else       -> throw IllegalAccessException("Please provide one of String, Int, Float, Long types only!!!")
-    }
+    } as T
 
-    return default
 }
 
 fun main(args: Array<String>) {

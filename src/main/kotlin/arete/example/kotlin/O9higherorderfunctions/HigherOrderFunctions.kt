@@ -19,5 +19,9 @@ fun doSomethingLockWorthy(): String {
 }
 
 fun main(args: Array<String>) {
-    lock(ReentrantLock(), { doSomethingLockWorthy() })
+    lock(ReentrantLock(), {
+        println("COLIN")
+        val result = doSomethingLockWorthy()
+        println(result)
+    })
 }

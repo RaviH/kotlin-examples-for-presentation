@@ -2,7 +2,7 @@ package arete.example.kotlin.O1clazz
 
 class SomeService(val nnsClient: NNSClient) {
 
-    fun youDoYou(seriesId: String): String {
+    fun getSeriesId(seriesId: String): String {
         return nnsClient.getSeries(seriesId)
     }
 
